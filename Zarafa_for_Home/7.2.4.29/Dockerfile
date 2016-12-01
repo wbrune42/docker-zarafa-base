@@ -4,7 +4,7 @@ MAINTAINER W Brune "github@brune.biz"
 # ORIGINAL MAINTAINER Felix Bartels "felix@host-consultants.de"
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV MYSQLTMPROOT rootpw 
+ENV MYSQLTMPROOT topSecret
 
 RUN apt-get update -qq -y && apt-get install -qq -y \
     wget \
